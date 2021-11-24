@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./card";
-import LandingNLS from "./landingNLS";
+import Card from "../components/card";
+import LandingNLS from "../components/landingNLS";
 
 const ContentLanding = () => {
   return (

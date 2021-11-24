@@ -1,6 +1,6 @@
 import React from "react";
-import logoName from "./logoName.svg";
-import logo from "./logo.svg";
+import logoName from "../images/logoName.svg";
+import logo from "../images/logo.svg";
 
 const LandingNLS = () => {
   return (

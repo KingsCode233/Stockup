@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import LandingBack from "./landing-page";
+import LandingBack from "./containers/landing-page";
 
 function App() {
   return (
