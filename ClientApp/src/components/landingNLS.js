@@ -13,9 +13,6 @@ const LandingNLS = () => {
           src={logoName}
           alt="company name logo "
         />
-        {/* <h3 className="text-white text-3xl font-black text-bold text-left">
-          Stock Up
-        </h3> */}
       </div>
       {/* SignIn/Up choice */}
       <p className="text-white text-left text-2xl mt-4">
