@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Card = () => {
   return (
-    <div className="card container m-auto flex-col p-10 h-auto w-10/12 self-center justify-center rounded-xl bg-white text-gray-700 text-left text-xs">
+    <div className="bg-white md:rounded-xl p-10 text-left text-xs sm:overflow-y-auto h-full">
       {/* {false ? <SignInCard /> : <SignUpCard />} */}
       <BrowserRouter>
         <Routes>
@@ -20,3 +20,7 @@ const Card = () => {
 };
 
 export default Card;
+
+{
+  /* <div className="card sm:h-5/6 sm:w-3/5 sm:my-auto sm:rounded-xl p-10 bg-white text-gray-700 text-left text-xs overflow-y-scroll md:w1/2 md:mx-10 md:rounded-xl lg:my-20 lg:mx-20"></div> */
+}
