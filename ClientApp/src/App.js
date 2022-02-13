@@ -1,11 +1,19 @@
-// import logo from "./logo.svg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import LandingBack from "./containers/landing-page";
+import DashboardPage from "./pages/dashboard/DashboardPage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
 
 function App() {
   return (
     <div className="App">
-      <LandingBack />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignupPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
