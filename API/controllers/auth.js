@@ -65,6 +65,14 @@ const sendTokenResponse = (user, statusCode, res) => {
     .json({ success: true, token });
 };
 
+exports.logout = (req, res) => {
+  res.cookie("token", "loggedout", {
+    expires: new Date(Date.now() + 10 * 1000),
+    httpOnly: true,
+  });
+  res.status(200).json({ status: "success" });
+};
+
 //@desc Get current logged in user
 //@route POST /api/v1/auth/me
 //@access Private
