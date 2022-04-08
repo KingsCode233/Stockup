@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         Robo: ["Roboto"],
       },
+      fontSize: {
+        tiny: "0.7rem",
+      },
       colors: {
         teal: "#00D1C1",
       },
